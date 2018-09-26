@@ -443,6 +443,8 @@ globalFuncs.getWalletPath = function(
                 return globalFuncs.HDWallet.hwPirlPath;
             case nodes.nodeTypes.AKA:
                 return globalFuncs.HDWallet.hwAkromaPath;
+            case nodes.nodeTypes.ESN:
+                return globalFuncs.HDWallet.hwESNetworkPath;
             default:
                 return globalFuncs.HDWallet.ledgerPath;
         }
